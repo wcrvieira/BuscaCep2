@@ -44,7 +44,8 @@ dependencies {
      * Importação das bibliotecas retrofit e converter-gson da Squareup
      * disponível em https://square.github.io/retrofit/
      */
-
+    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
     implementation(libs.play.services.maps)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
